@@ -58,7 +58,8 @@ const mhs = {
         'Rekayasa Web',
         'Analisis dan Perancangan Sistem Informasi',
         'Pemrograman Sistem Interactive',
-        'Perancangan Sistem berorientasi Objek'
+        'Perancangan Sistem berorientasi Objek',
+        'javascript'
     ]
 };
 
