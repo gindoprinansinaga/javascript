@@ -51,31 +51,32 @@
 
 // 4. Nested
 // HTML Fragment bersarang
-const mhs = {
-    nama : 'Gindo Prinando',
-    semester : 1,
-    mataKuliah : [
-        'Rekayasa Web',
-        'Analisis dan Perancangan Sistem Informasi',
-        'Pemrograman Sistem Interactive',
-        'Perancangan Sistem berorientasi Objek',
-        'javascript'
-    ]
-};
+// const mhs = {
+//     nama : 'Gindo Prinando',
+//     semester : 1,
+//     mataKuliah : [
+//         'Rekayasa Web',
+//         'Analisis dan Perancangan Sistem Informasi',
+//         'Pemrograman Sistem Interactive',
+//         'Perancangan Sistem berorientasi Objek',
+//         'javascript'
+//     ]
+// };
 
-function cetakMataKuliah(mataKuliah){
-    return `
-        <ol>
-            ${mataKuliah.map(mk => `<li>${mk}</li>`).join('')}
-        </ol>
-    `;
-}
+// function cetakMataKuliah(mataKuliah){
+//     return `
+//         <ol>
+//             ${mataKuliah.map(mk => `<li>${mk}</li>`).join('')}
+//         </ol>
+//     `;
+// }
 
-const el = `<div>
-    <h2>${mhs.nama}</h2>
-    <span class="semester">Semester : ${mhs.semester}</span>
-    <h4>Mata Kuliah</h4>
-    ${cetakMataKuliah(mhs.mataKuliah)}
-</div>`;
+// const el = `<div>
+//     <h2>${mhs.nama}</h2>
+//     <span class="semester">Semester : ${mhs.semester}</span>
+//     <h4>Mata Kuliah</h4>
+//     ${cetakMataKuliah(mhs.mataKuliah)}
+// </div>`;
 
-document.body.innerHTML = el;
+// document.body.innerHTML = el;
+
