@@ -1,0 +1,20 @@
+[
+    {
+        "nama":"Gindo Prinando Sinaga",
+        "nik":"123456789",
+        "email":"gindo@gmail.com",
+        "idProjectManajer":"1"
+    },
+    {
+        "nama":"John Doe",
+        "nik":"987654321",
+        "email":"john@gmail.com",
+        "idProjectManajer":"2"
+    },
+    {
+        "nama":"James bond",
+        "nik":"999999999",
+        "email":"james@gmail.com",
+        "idProjectManajer":"2"
+    }
+]
